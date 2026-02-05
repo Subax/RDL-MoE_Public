@@ -18,6 +18,8 @@ Abstract
 Precise prognostic stratification in elderly lung cancer patients is increasingly challenged by patient heterogeneity, wherein survival outcomes are dictated not only by tumor aggressiveness but also by the host’s physiological reserve. Current prognostic models fail to adequately capture this complexity. To bridge the gap between predictive accuracy and clinical explainability, we present the Risk-Stratified Deep Linear Mixture-of-Experts (RDL-MoE), a novel architecture explicitly designed to prioritize intrinsic explainability and safety. Departing from traditional tumor-centric approaches—and uniquely distinguishing our work from prior slice-based studies—we adopt a host-centric radiomics paradigm that leverages AI-driven automated segmentation to extract objective biomarkers from the volumetric extent of skeletal muscle, intramuscular adipose tissue, and the whole lung. Validated on multi-center cohorts, including the TCIA dataset, our model demonstrates predictive performance comparable to state-of-the-art baselines while offering substantially enhanced structural explainability. By harmonizing objective host-factor quantification with a safety-prioritized learning architecture, RDL-MoE provides a robust, transparent, and clinically actionable tool for survival prediction.
 
 Repository Structure
+```text
+.
 ├── main.py                # Entry point for training and evaluation
 ├── requirements.txt       # List of dependencies
 ├── README.md              # Project documentation
